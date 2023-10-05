@@ -1,3 +1,13 @@
+### ASSIGNMENT ###
+
+# 1. The MickeyMouse problem
+
+# a) Write a program that prints the numbers from 1 to 100. But for multiples of 3 print `Mickey` instead of the corresponding number   and for the multiples of 5 print `Mouse`. For numbers which are multiples of both three and five print `MickeyMouse`
+
+# b) Put the result in a tuple and substitute `Mickey` with `Donald` and `Mouse` with `Duck`
+
+###########################################################################################
+
 b = "Mickey"
 c = "Mouse"
 pluto = []
