@@ -1,0 +1,24 @@
+--2023-11-29 11:59:40--  https://www.dropbox.com/s/u4y3k4kk5tc7j46/two_categories_scatter_plot.png
+Resolving www.dropbox.com (www.dropbox.com)... 162.125.69.18, 198.51.44.6, 198.51.45.6, ...
+Connecting to www.dropbox.com (www.dropbox.com)|162.125.69.18|:443... connected.
+HTTP request sent, awaiting response... 302 Found
+Location: /s/raw/u4y3k4kk5tc7j46/two_categories_scatter_plot.png [following]
+--2023-11-29 11:59:41--  https://www.dropbox.com/s/raw/u4y3k4kk5tc7j46/two_categories_scatter_plot.png
+Reusing existing connection to www.dropbox.com:443.
+HTTP request sent, awaiting response... 302 Found
+Location: https://ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com/cd/0/inline/CIeSye7ksvStZp-G1Z9y-r6U67vcpZUGqvYfZIh2ZEtgFn-jFqHkpbakxXxKDw9uESwCSxkgyIF-IGDMs5QO1fVRQHo8HvN3GJhkOd5a51YJljmFt2chKeUrpuEJuxwP3yA/file# [following]
+--2023-11-29 11:59:41--  https://ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com/cd/0/inline/CIeSye7ksvStZp-G1Z9y-r6U67vcpZUGqvYfZIh2ZEtgFn-jFqHkpbakxXxKDw9uESwCSxkgyIF-IGDMs5QO1fVRQHo8HvN3GJhkOd5a51YJljmFt2chKeUrpuEJuxwP3yA/file
+Resolving ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)... 198.51.44.6, 198.51.45.6, 198.51.44.70, ...
+Connecting to ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)|198.51.44.6|:443... failed: Connection timed out.
+Connecting to ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)|198.51.45.6|:443... failed: Connection timed out.
+Connecting to ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)|198.51.44.70|:443... failed: Connection timed out.
+Connecting to ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)|198.51.45.70|:443... failed: Connection timed out.
+Connecting to ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com (ucd7bc841dcfe5f3ed3e79e3d902.dl.dropboxusercontent.com)|162.125.69.15|:443... connected.
+HTTP request sent, awaiting response... 200 OK
+Length: 43828 (43K) [image/png]
+Saving to: ‘two_categories_scatter_plot.png’
+
+     0K .......... .......... .......... .......... ..        100%  525K=0.08s
+
+2023-11-29 15:53:51 (525 KB/s) - ‘two_categories_scatter_plot.png’ saved [43828/43828]
+
