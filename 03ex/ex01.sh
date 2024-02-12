@@ -1,5 +1,3 @@
-#!/bin/bash
-
 mkdir "./students"
 
 cd "./students"
@@ -17,7 +15,7 @@ max_letter="A"
 
 for letter in {A..Z}
 do
-    count=$(cut -f1 -d "," "./LCP_22-23_students.csv" | grep -c "$letter")
+    count=$(awk -F '[, ]' '{if(NR>1) print $1}' "./LCP_22-23_students.csv" | grep -c "$letter")
     echo "$letter: $count" >> "./count_by_letter"
 
     if [ $count -gt $max ]
