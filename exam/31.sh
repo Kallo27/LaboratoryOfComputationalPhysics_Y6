@@ -4,6 +4,8 @@ cd "./students"
 if [ ! -f ./LCP_22-23_students.csv ]
 then
     wget https://www.dropbox.com/s/867rtx3az6e9gm8/LCP_22-23_students.csv
+else
+    echo "File already existing."
 fi
 
 grep "PoD" "./LCP_22-23_students.csv" > "./PoD_students"
@@ -14,16 +16,17 @@ max_letter="A"
 
 for letter in {A..Z}
 do
-    count=$(awk -F '[, ]' 'NR>1 {print substr($1, 1, 1)}' ./LCP_22-23_students.csv | grep -c "$letter")
+    count=$(awk -F '[, ]' 'NR>1 {print substr($1, 1, 1)}' ./LCP_22-23_students.csv | grep -c $letter)
     echo "$letter: $count" >> "./count_by_letter"
-
+    
     if [ $count -gt $max_count ]
     then
         max_count=$count
         max_letter=$letter
     fi
+    
 done
 
-echo "The most frequent initial is: $max_letter."
+echo "The letter with most occurrencies is: $max_letter."
 
-awk -F ',' 'NR>1 {file="./group_"int((NR-2)%18)+1".txt"; print $0 >> file; close(file)}' ./LCP_22-23_students.csv
+awk -F ',' 'NR>1 {file="./group_"int((NR-2)%18+1)".txt"; print $0 >> file; close(file)}' ./LCP_22-23_students.csv
